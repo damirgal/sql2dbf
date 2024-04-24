@@ -8,8 +8,6 @@ from dbfpy3 import dbf
 # 2. python c:/путь/к/python/файлу.py c:/путь/dbf_файл.sql win|dbf
 
 # чтение аргументов
-#sql_name = sys.argv[1][sys.argv[1].rfind('/')+1:]
-#file_name = 'путь/' + sql_name[0:sql_name.rfind('.')]+'.dbf'
 sql_name = 'c:/sql2dbf/' + sys.argv[1]
 file_name = 'C:/temp/' + sys.argv[1][0:sys.argv[1].rfind('.')]+'.dbf'
 
